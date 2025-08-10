@@ -18,8 +18,8 @@ body {
 
 #main-child {
     position: relative;
-    left: 12%;
-
+    left: 13rem;
+    padding-top: 2rem;
 }
 
 .nav-link {
