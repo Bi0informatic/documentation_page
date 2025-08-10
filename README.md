@@ -1,2 +1,2 @@
 # Introduction
-This is a project to emulate a documentation page.
+This project is a page where I write about basic programming concepts.
