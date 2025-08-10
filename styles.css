@@ -15,7 +15,7 @@ body {
 p {
     padding-left: 0.7rem;
     font-size: 0.8rem;
-    color: grey;
+    color: rgba(00,00,00,60%);
 }
 
 #main-container {
