@@ -16,6 +16,7 @@ p {
     padding-left: 0.7rem;
     font-size: 0.8rem;
     color: rgba(00,00,00,60%);
+    line-height: 1.2rem;
 }
 
 #main-container {
@@ -39,6 +40,7 @@ p {
 #main-child {
     position: relative;
     padding-left: 19rem;
+    padding-right: 1rem;
     padding-top: 2rem;
 }
 
@@ -48,7 +50,7 @@ p {
     color: black;
     text-decoration: none;
     border-top: 2px solid grey;
-    padding: 1rem;
+    padding: 0.6rem 1.1rem;
 }
 
 .nav-link span {
