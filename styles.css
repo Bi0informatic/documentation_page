@@ -55,6 +55,16 @@ p {
     padding: 0.6rem 1.1rem;
 }
 
+code {
+    display: block;
+    background-color: #eeeeee;
+    font-size: 0.8rem;
+    width:97%;
+    padding: 0.7rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+}
+
 @media only screen and (max-width: 720px) {
     p {
         font-size: small;
