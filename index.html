@@ -16,7 +16,7 @@
                         <a class="nav-link" href="#before-continuing">Before Continuing</a>
                         <a class="nav-link" href="#variables">Variables</a>
                         <a class="nav-link" href="#declaring-variables">Declaring Variables</a>
-                        <a class="nav-link" href="#header_5">header 5</a>
+                        <a class="nav-link" href="#scope">Scope</a>
                     </nav>
                 </div>
                 <div id="main-child">
@@ -71,19 +71,55 @@
                             There are four common ways to declare variables: 
                         </p>
                         <p>
-                            You can use the keyword var. For example,
+                            You can use the keyword "var". For example:
                         </p>
                         <code>
-                            var x = 2
+                            var x = 2;
                         </code>
-                        <code></code>
-                        <code></code>
-                        <code></code>
+                        <p>
+                            This syntax of "var" can be used to declare both local and global variables.
+                        </p>
+                        <p>
+                            By assigning a value to a identifier without any keywords, it can create a variable that is always
+                            global. For example:
+                        </p>
+                        <code>
+                            x = 2;
+                        </code>
+                        <p>
+                            Depending on the setup, this could generate a JavaScript error. This way of declaring variables 
+                            should be avoided. 
+                        </p>
+                        <p>
+                            The keyword "let" is commonly used to declare variables whose values are subject to change. For example: 
+                        </p>
+                        <code>
+                            let x = 2;<br><br>
+                            x = 3;
+                        </code>
+                        <p>
+                            The first line of code declares a new variable called "x" and assigns it the value of 2.
+                            This means that every reference to "x" will automatically substitute "x" with 2.
+                            The second line of code reassigns the variable "x" a new value of 3. Now every reference to "x" will result in a 3.
+                        </p>
+                        <p>
+                            The last keyword I will be covering will be the keyword "const". For example:
+                        </p>
+                        <code>
+                            const x = 2;
+                        </code>
+                        <p>
+                            The "const" keyword lets the computer know that the value assigned to "x" must not be reassigned.
+                            The following statement after the "const x = 2;" declaration would result in a JavaScript warning:
+                        </p>
+                        <code>
+                            x = 3;
+                        </code>
                     </section>
-                    <section id="header_5" class="main-section">
-                        <header>header 5</header>
+                    <section id="scope" class="main-section">
+                        <header>Scope</header>
                         <p></p>
-                        <code>Filler</code>
+                        <code></code>
                         <ul>
                             <li></li>
                             <li></li>
