@@ -27,13 +27,6 @@ p {
     padding: 0rem 1rem 1rem 1rem;
 }
 
-#nav-child {
-    padding-top: 1rem;
-    border-right: 2px solid grey;
-    height: 100vh;
-    position: fixed;
-
-}
 
 /*main text area*/
 
@@ -45,17 +38,21 @@ p {
 }
 
 /*Nav styling*/
+#nav-child {
+    padding-top: 1rem;
+    border-right: 2px solid grey;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+}
+
 .nav-link {
     display:block;
-    color: black;
+    font-weight: lighter;
+    color: grey;
     text-decoration: none;
     border-top: 2px solid grey;
     padding: 0.6rem 1.1rem;
-}
-
-.nav-link span {
-    font-weight: lighter;
-    color: grey;
 }
 
 @media only screen and (max-width: 720px) {
