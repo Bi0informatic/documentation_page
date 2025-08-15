@@ -118,15 +118,52 @@
                     </section>
                     <section id="scope" class="main-section">
                         <header>Scope</header>
-                        <p></p>
-                        <code></code>
+                        <p>Scope is the name for where a variable lives. There are three types of scopes in JavaScript:</p>
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Block</li>
+                            <li>Function</li>
+                            <li>Global</li>
                         </ul>
+
+                        <p>
+                            Variables declared in a {} block live only within the brackets. That means that you can only 
+                            access those within the block or else an error occurs. For example:
+                        </p>
+                        <code>
+                            {<br>
+                                let x = 4 <span class="comment">// this is valid and x can be accessed here</span><br>
+                            }<br>
+                            <span class="comment">// console.log(x) would not work and would cause an error</span>
+                        </code>
+                        <p>
+                            Variables that are declared within a function are in the local scope. It cannot be accessed outside of the function.
+                            For example:
+                        </p>
+                        <code>
+                            <span class="blue">function</span> exampleFunction() {<br>
+                                <pre>   </pre>
+                                <span class="blue">let</span> variableName = <span class="green">"one"</span>
+                                <span class="comment">// this can be accessed inside the function</span><br>
+                            }<br>
+                            <span class="comment">// console.log(variableName) would not work here and would throw an error</span>
+                        </code>
+                        <p>
+                            Here are two reasons why local variables are used:
+                        </p>
+                        <ul>
+                            <li>they make memory management more efficient. Once the function ends, the space for the local variables is reallocated.</li>
+                            <li>they reduce problems down the line when you want to name a variable, but the variables name is already taken. You might also forget that a variable is storing some other value that do you not need.</li>
+                        </ul>
+                        <p>A variable declared outside of a function or a block is called global. This means that is can be accessed and referenced anywhere in the file. For example:</p>
+                        <code>
+                            <span class="blue">let</span> variableName = <span class="green">"one"</span>
+                            <br><span class="comment">// variableName can be accessed here</span><br>
+                            <span class="blue">function</span> exampleFunction() {<br>
+                                <pre>   </pre><span class="comment">// variableName can also be accessed here</span><br>
+                            }<br>
+                            
+                            
+                        </code>
                     </section>
                 </div>
             </div>

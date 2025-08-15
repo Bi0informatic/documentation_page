@@ -1,10 +1,15 @@
 html {
     font-size: 20px;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
     font-size: 1.4rem;
+}
+
+pre {
+    display: inline;
 }
 
 body {
@@ -27,7 +32,13 @@ p {
     padding: 0rem 1rem 1rem 1rem;
 }
 
+.blue {
+    color: rgb(0, 81, 255);
+}
 
+.green {
+    color: green;
+}
 /*main text area*/
 
 #main-child {
@@ -63,6 +74,15 @@ code {
     padding: 0.7rem;
     margin: 0.5rem;
     border-radius: 8px;
+}
+
+.comment {
+    color: grey;
+}
+
+li {
+    font-size: 0.7rem;
+    color: rgba(00,00,00,60%);
 }
 
 @media only screen and (max-width: 720px) {
